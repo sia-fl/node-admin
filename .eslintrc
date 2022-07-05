@@ -1,0 +1,14 @@
+{
+  "extends": "eslint-config-egg/typescript",
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true
+    }
+  },
+  "rules": {
+    "@typescript-eslint/no-var-requires": "off",
+    "no-undef": "off"
+  }
+}
